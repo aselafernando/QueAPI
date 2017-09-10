@@ -1,4 +1,11 @@
-﻿using System;
+﻿// <copyright file="QueAPI.cs">
+// Copyright (c) 2017 All Rights Reserved
+// </copyright>
+// <author>Asela Fernando</author>
+// <date>10/09/2017 8:00:58 PM </date>
+// <summary>QueAPI wrapper class</summary>
+
+using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
@@ -510,7 +517,7 @@ namespace QueAPI
             QueNotification = QueCallback;
             if (QueAPIOpen(QueNotification) != QueErrT16.None)
             {
-                //throw new UnableToConnect("Cannot connect to Que API");
+                throw new UnableToConnect("Cannot connect to Que API");
             }
         }
 
