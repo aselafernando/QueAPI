@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
     <AssemblyName>QueAPIWrapper</AssemblyName>
+    <Authors>Asela Fernando</Authors>
+    <Company />
+    <Description>C# Wrapper for Garmin QueAPI</Description>
+    <Copyright>2017</Copyright>
+    <PackageLicenseUrl>https://github.com/aselafernando/QueAPI/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/aselafernando/QueAPI/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/aselafernando/QueAPI/</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
   </PropertyGroup>
 
 </Project>
